@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Assignment1.HandlingBootStrapDropDown">
+        <methods>
+          <include name="setUp"/>
+          <include name="bootStrapDropDown"/>
+        </methods>
+      </class> <!-- Assignment1.HandlingBootStrapDropDown -->
+      <class name="Assignment1.HandlingWindow">
+        <methods>
+          <include name="setUp"/>
+          <include name="WindowHandle"/>
+        </methods>
+      </class> <!-- Assignment1.HandlingWindow -->
+      <class name="Assignment1.DragAndDrop">
+        <methods>
+          <include name="DropDown"/>
+          <include name="drag"/>
+        </methods>
+      </class> <!-- Assignment1.DragAndDrop -->
+      <class name="Assignment1.ScrollWebPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="ScrollScript"/>
+        </methods>
+      </class> <!-- Assignment1.ScrollWebPage -->
+      <class name="Assignment1.EnterTextWithoutSendKey">
+        <methods>
+          <include name="textWithoutSendkeys"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Assignment1.EnterTextWithoutSendKey -->
+      <class name="Assignment1.SetBrowserWindowSize">
+        <methods>
+          <include name="SetSizeWindow"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Assignment1.SetBrowserWindowSize -->
+      <class name="Assignment1.FindBrokenLink">
+        <methods>
+          <include name="brokenLink"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Assignment1.FindBrokenLink -->
+      <class name="Assignment1.GoogleSearchWebPage">
+        <methods>
+          <include name="GoogleSearch"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Assignment1.GoogleSearchWebPage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
